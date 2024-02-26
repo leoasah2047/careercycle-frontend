@@ -1,0 +1,132 @@
+.noise-icon {
+  height: 143.5px;
+  width: 187px;
+  position: absolute;
+  margin: 0 !important;
+  right: -102px;
+  bottom: -76.5px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.text-element {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.75px;
+  font-family: Manrope;
+  color: #7e56d9;
+  text-align: center;
+  z-index: 1;
+}
+.section-tag-wrapper {
+  cursor: pointer;
+  border: 1px solid #eee2fe;
+  padding: 4px;
+  background-color: transparent;
+  width: 85px;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #e9d8ff, rgba(255, 255, 255, 0), #29242e);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 20px;
+}
+.section-tag-wrapper:hover {
+  background-color: rgba(212, 201, 230, 0.09);
+  border: 1px solid #d4c9e6;
+  box-sizing: border-box;
+}
+.icon-shape,
+.line-element {
+  align-self: stretch;
+  position: relative;
+}
+.line-element {
+  margin: 0;
+  height: 58px;
+  font-size: inherit;
+  letter-spacing: -3.83px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.icon-shape {
+  font-size: 16px;
+  letter-spacing: -0.75px;
+  font-family: Manrope;
+  color: #7a7d9c;
+}
+.third-level-frame,
+.values-bottom-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.values-bottom-wrapper {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.third-level-frame {
+  width: 1208px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 50px;
+  text-align: center;
+  font-size: 48px;
+  color: #1b152b;
+  font-family: Inter;
+}
+.features,
+.features1,
+.third-level-frame {
+  display: flex;
+  align-items: center;
+}
+.features1 {
+  flex: 1;
+  background-color: #f9fafb;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px 0 0;
+  box-sizing: border-box;
+  gap: 100px;
+  max-width: 100%;
+}
+.features {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .line-element {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .third-level-frame {
+    gap: 50px;
+  }
+  .features1 {
+    gap: 100px;
+  }
+  .features {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .line-element {
+    font-size: 29px;
+  }
+  .features1 {
+    gap: 100px;
+  }
+}

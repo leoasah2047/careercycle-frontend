@@ -1,0 +1,138 @@
+.empty-state-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.oops-nothing-to {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ff895d, rgba(27, 21, 43, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.arrow-left-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.texting {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.base2,
+.bumm {
+  display: flex;
+  flex-direction: row;
+}
+.base2 {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.bumm {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bull,
+.base1 {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.base1 {
+  flex: 1;
+  background-color: #ff895d;
+  box-shadow: 0 1px 2px rgba(40, 26, 16, 0.05);
+  border: 1px solid #ff895d;
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+}
+.bull {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.acting,
+.frame-root,
+.oops-nothing-to-see-here-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.acting {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 32px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.frame-root,
+.oops-nothing-to-see-here-parent {
+  width: 360px;
+  align-items: center;
+  gap: 33px;
+}
+.frame-root {
+  width: 425px;
+  height: 403px;
+  gap: 8px;
+}
+.futuresphere-copyrights-reserv3 {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.error-page {
+  width: 100%;
+  position: relative;
+  background-color: #f9fafb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 167px 21px 48px 20px;
+  box-sizing: border-box;
+  gap: 191px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 24px;
+  color: #667085;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .oops-nothing-to {
+    font-size: 19px;
+  }
+  .oops-nothing-to-see-here-parent {
+    gap: 33px;
+  }
+  .error-page {
+    gap: 191px;
+  }
+}

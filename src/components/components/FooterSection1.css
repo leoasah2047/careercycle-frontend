@@ -1,0 +1,242 @@
+.pexels-andrea-piacquadio-39785-icon {
+  height: 603px;
+  width: 462px;
+  position: absolute;
+  margin: 0 !important;
+  right: 166px;
+  bottom: -26px;
+  object-fit: cover;
+  z-index: 1;
+}
+.links-child {
+  width: 1440px;
+  height: 677px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.email-capture-input-field {
+  width: 101px;
+  height: 17px;
+  position: relative;
+  z-index: 1;
+}
+.given-the-enormous,
+.self-esteem-therapy {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.self-esteem-therapy {
+  margin: 0;
+  width: 520px;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.i-help-people {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 160%;
+  color: var(--gray-800);
+  z-index: 1;
+}
+.social-icons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: 18px 0;
+  max-width: 100%;
+  font-size: var(--font-size-53xl);
+  color: var(--color-darkslateblue);
+}
+.claim-your-spot {
+  position: relative;
+  font-size: var(--text-sm-normal-size);
+  line-height: 24px;
+  font-family: var(--font-kumbh-sans);
+  color: var(--white);
+  text-align: left;
+}
+.text {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-55xl) var(--padding-4xs)
+    var(--padding-54xl);
+  background-color: var(--color-lightseagreen-100);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.text:hover {
+  background-color: var(--color-lightseagreen-200);
+}
+.group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px 0;
+  max-width: 100%;
+}
+.button-base2 {
+  width: 647px;
+  flex-direction: row;
+  padding: 0 var(--padding-32xl);
+  box-sizing: border-box;
+}
+.button-base2,
+.footer-section1,
+.links,
+.section2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.links {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  padding: var(--padding-36xl) var(--padding-15xl) var(--padding-122xl);
+  box-sizing: border-box;
+  gap: 68px 0;
+}
+.footer-section1,
+.section2 {
+  flex-direction: row;
+}
+.section2 {
+  flex: 1;
+  position: relative;
+}
+.footer-section1 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text-md-medium-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-kumbh-sans);
+}
+@media screen and (max-width: 1024px) {
+  .pexels-andrea-piacquadio-39785-icon {
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    margin: 0 !important;
+    right: 100px;
+    bottom: -26px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .button-base2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 60%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .pexels-andrea-piacquadio-39785-icon {
+    height: 500px;
+    width: 320px;
+    position: absolute;
+    margin: 0 !important;
+    right: 70px;
+    bottom: -26px;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 820px) {
+  .pexels-andrea-piacquadio-39785-icon {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    margin: 0 !important;
+    right: 100px;
+    bottom: -26px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .button-base2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .self-esteem-therapy {
+    font-size: var(--font-size-39xl);
+    line-height: 69px;
+  }
+  .button-base2 {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .links {
+    gap: 68px 0;
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+  .pexels-andrea-piacquadio-39785-icon {
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    margin: 0 !important;
+    right: 166px;
+    bottom: -26px;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pexels-andrea-piacquadio-39785-icon {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    margin: 0 !important;
+    right: 166px;
+    bottom: -26px;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .self-esteem-therapy {
+    font-size: var(--font-size-24xl);
+    line-height: 52px;
+  }
+  .text {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .links {
+    gap: 68px 0;
+  }
+}

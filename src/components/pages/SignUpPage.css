@@ -1,0 +1,81 @@
+.nanotechnology-1-traced1 {
+  align-self: stretch;
+  width: 68.9px;
+  position: relative;
+  max-height: 100%;
+  min-height: 61px;
+}
+.futuresphere1 {
+  height: 61px;
+  position: relative;
+  letter-spacing: 3.3px;
+  display: inline-block;
+  background: linear-gradient(90deg, #8932f6, rgba(27, 21, 43, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 100%;
+}
+.framenanotech-traced,
+.framenanotech-traced-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.framenanotech-traced {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  gap: 9px;
+}
+.framenanotech-traced-parent {
+  width: 440px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.futuresphere-copyrights-reserv2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.sign-up-page {
+  width: 100%;
+  position: relative;
+  background-color: #f9fafb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 68px 20px 48px;
+  box-sizing: border-box;
+  gap: 67px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 50.7px;
+  color: #667085;
+  font-family: "Product Sans";
+}
+@media screen and (max-width: 750px) {
+  .futuresphere1 {
+    font-size: 41px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .sign-up-page {
+    gap: 67px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .futuresphere1 {
+    font-size: 30px;
+  }
+  .framenanotech-traced {
+    flex-wrap: wrap;
+  }
+}

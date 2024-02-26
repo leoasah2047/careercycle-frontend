@@ -1,0 +1,109 @@
+.heading3,
+.subheading2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.heading3 {
+  margin: 0;
+  font-size: var(--font-size-29xl);
+  letter-spacing: -0.02em;
+  line-height: 58px;
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--color-darkslateblue);
+}
+.heading-and-subheading2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.supporting-text4 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-xl-normal-size);
+  line-height: 30px;
+  color: var(--color-dimgray-200);
+}
+.content2,
+.heading-and-supporting-text3 {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  max-width: 100%;
+}
+.content2 {
+  gap: 48px 0;
+  font-size: var(--font-size-lgi);
+  color: var(--color-darkslateblue);
+}
+.container5,
+.section3 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+.container5 {
+  width: 1280px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xl);
+}
+.section3 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) 0;
+  min-height: 518px;
+  text-align: left;
+  font-size: var(--text-md-medium-size);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-kumbh-sans);
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1275px) {
+  .container5 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heading3 {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .content2 {
+    gap: 48px 0;
+  }
+  .section3 {
+    gap: 64px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .supporting-text4 {
+    font-size: var(--text-md-medium-size);
+    line-height: 24px;
+  }
+  .section3 {
+    gap: 64px 0;
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+}
