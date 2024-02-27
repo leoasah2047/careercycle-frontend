@@ -8,10 +8,10 @@ import './components/navbar/navBarLP.css';
 import { disableReactDevTools } from '@fvilers/disable-react-devtools';
 
 if (process.env.NODE_ENV === "production") {
-  window.BACKEND_API_SERVER_ADDRESS = "localhost:3000"
+  window.BACKEND_API_SERVER_ADDRESS = "https://careercycle-api.onrender.com"
   disableReactDevTools();
 } else {
-  window.BACKEND_API_SERVER_ADDRESS = ""
+  window.BACKEND_API_SERVER_ADDRESS = "https://careercycle-api.onrender.com"
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
