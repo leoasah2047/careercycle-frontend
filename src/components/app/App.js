@@ -11,6 +11,8 @@ import SignUpForm from "../user/SignUpForm";
 import LogInForm from "../auth/LoginForm";
 import ErrorPage from "../pages/ErrorPage";
 import Pricing from "../pages/Pricing";
+import Home from "../pages/Home";
+import PostDetails from "../pages/PostDetails";
 import React, { useEffect } from 'react';
 import {
   useNavigate,
@@ -76,10 +78,12 @@ const App = () => {
       <Route path='/cover' element={<CoverLetterGenerator navigate={useNavigate()} />} />
       <Route path='/resignation' element={<ResignationLetterGenerator navigate={useNavigate()} />} />
       <Route path='/resumeanalyser' element={<ResumeAnalyser navigate={useNavigate()} />} />
+      <Route path="/blog" element={<Home />} />
+      <Route exact path="/posts/post/:id" element={<PostDetails/>}/>
       <Route path="/" element={<Homepage />} />
       <Route path="/signup" element={<SignUpForm />} />
       <Route path="*" element={<ErrorPage />} />
-      <Route path="/pricing" element={<Pricing />} />
+      {/*<Route path="/pricing" element={<Pricing />} />*/}
       <Route path='/profile' element={<Profile navigate={useNavigate()} />} />
       <Route path='/interview' element={<Interview navigate={useNavigate()} />} />
       <Route path='/login' element={<LogInForm />} />
